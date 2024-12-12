@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pipizuiai_go_pipeline_sample_1733983553448-pr-trigger-input-set
+  identifier: Build_pipizuiai_go_pipeline_sample_1733983553448prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pipizuiai_go_pipeline_sample_1733983553448
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
